@@ -41,7 +41,9 @@
   Customize the layout and display of the chat body, and the conversation's metadata
 */
 
-/* .vfrc-chat {} */
+.vfrc-chat {
+    background-color: #F9F4FF;
+}
 
 /* .vfrc-chat--dialog {} */
 
@@ -61,9 +63,12 @@
   Customize the style and layout of assistant response messages.
 */
 
-/* .vfrc-system-response--indicator {} */
+.vfrc-system-response .vfrc-message {
+    text-align: right;
+    direction: rtl;
+}
 
-/* .vfrc-system-response {} */
+/* .vfrc-system-response--indicator {} */
 
 /* .vfrc-system-response--controls {} */
 
@@ -88,12 +93,6 @@
 /* .vfrc-carousel--button {} */
 
 /* Targeted styling for just the Assistant messages. */
-.vfrc-system-response .vfrc-message {
-    text-align: right;
-    direction: rtl;
-}
-
-/* Targeted styling for just the Assistant buttons. */
 /* .vfrc-system-response .vfrc-button {} */
 
 /*
